@@ -1,0 +1,17 @@
+{
+    "presets": [
+      ["@babel/preset-env", { "modules": false }],
+    "@babel/preset-react"
+  ],
+    "plugins": [
+      "@babel/plugin-syntax-dynamic-import",
+      "@babel/plugin-proposal-class-properties",
+      "react-hot-loader/babel"  // HMR
+    ]
+  }
+
+
+/* 
+@babel/preset-env — With this you don’t have to specify if you will be writing ES2015, ES2016 or ES2017. Babel will automatically detect and transpile accordingly.
+@babel/preset-react — Tells Babel we will be using React 
+*/
